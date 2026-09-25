@@ -42,7 +42,6 @@ export const AdminSettingsPage = () => {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2rem" }}>
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.4rem" }}>
-            <span className="badge badge-danger">Suraj's Admin Module</span>
             <span className="badge badge-primary">System Config</span>
           </div>
           <h1 className="section-title">System Settings</h1>

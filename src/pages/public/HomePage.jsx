@@ -106,7 +106,7 @@ export const HomePage = () => {
           <div style={{ textAlign: "center", maxWidth: "650px", margin: "0 auto 3rem" }}>
             <span className="badge badge-primary" style={{ marginBottom: "0.5rem" }}>Streamlined Workflow</span>
             <h2 className="section-title">How BookBase Works</h2>
-            <p className="section-subtitle">A friction-free borrowing lifecycle built according to academic requirements.</p>
+            <p className="section-subtitle">A friction-free borrowing lifecycle built according to modern library standards.</p>
           </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1.75rem" }}>
@@ -153,53 +153,7 @@ export const HomePage = () => {
         </div>
       </section>
 
-      {/* Team Member Roles Banner */}
-      <section className="container" style={{ padding: "4rem 1.5rem" }}>
-        <div style={{ background: "linear-gradient(135deg, var(--neutral-900), var(--neutral-800))", color: "#fff", borderRadius: "var(--radius-xl)", padding: "2.75rem", boxShadow: "var(--shadow-xl)" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "space-between", gap: "1.5rem", marginBottom: "2rem" }}>
-            <div>
-              <span className="badge" style={{ background: "rgba(99, 102, 241, 0.3)", color: "#a5b4fc", border: "1px solid rgba(165, 180, 252, 0.3)", marginBottom: "0.5rem" }}>
-                Team Architecture
-              </span>
-              <h2 style={{ fontSize: "1.85rem", color: "#fff" }}>BookBase Engineering Team</h2>
-              <p style={{ color: "#94a3b8", fontSize: "0.95rem" }}>Google Classroom Project Modules & Student Responsibilities</p>
-            </div>
 
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1.25rem" }}>
-            <div style={{ background: "rgba(255, 255, 255, 0.05)", padding: "1.25rem", borderRadius: "var(--radius-md)", border: "1px solid rgba(255, 255, 255, 0.1)" }}>
-              <strong style={{ color: "#818cf8", display: "block", marginBottom: "0.35rem" }}>1. Sonal</strong>
-              <div style={{ fontSize: "0.85rem", color: "#e2e8f0" }}>Authentication & Public Pages</div>
-              <div style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.35rem" }}>Home, Login, Register, JWT & Route Protection</div>
-            </div>
-
-            <div style={{ background: "rgba(255, 255, 255, 0.05)", padding: "1.25rem", borderRadius: "var(--radius-md)", border: "1px solid rgba(255, 255, 255, 0.1)" }}>
-              <strong style={{ color: "#34d399", display: "block", marginBottom: "0.35rem" }}>2. Amay</strong>
-              <div style={{ fontSize: "0.85rem", color: "#e2e8f0" }}>User Dashboard & Profile</div>
-              <div style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.35rem" }}>Borrowing metrics, Profile update, Password reset</div>
-            </div>
-
-            <div style={{ background: "rgba(255, 255, 255, 0.05)", padding: "1.25rem", borderRadius: "var(--radius-md)", border: "1px solid rgba(255, 255, 255, 0.1)" }}>
-              <strong style={{ color: "#38bdf8", display: "block", marginBottom: "0.35rem" }}>3. Aniket</strong>
-              <div style={{ fontSize: "0.85rem", color: "#e2e8f0" }}>Book Catalog & Search</div>
-              <div style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.35rem" }}>Filter by genre, Book details & Search engine</div>
-            </div>
-
-            <div style={{ background: "rgba(255, 255, 255, 0.05)", padding: "1.25rem", borderRadius: "var(--radius-md)", border: "1px solid rgba(255, 255, 255, 0.1)" }}>
-              <strong style={{ color: "#fbbf24", display: "block", marginBottom: "0.35rem" }}>4. Sonu</strong>
-              <div style={{ fontSize: "0.85rem", color: "#e2e8f0" }}>Borrow & Return System</div>
-              <div style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.35rem" }}>Auto return, Due dates & Loan history</div>
-            </div>
-
-            <div style={{ background: "rgba(255, 255, 255, 0.05)", padding: "1.25rem", borderRadius: "var(--radius-md)", border: "1px solid rgba(255, 255, 255, 0.1)" }}>
-              <strong style={{ color: "#f87171", display: "block", marginBottom: "0.35rem" }}>5. Suraj</strong>
-              <div style={{ fontSize: "0.85rem", color: "#e2e8f0" }}>Admin Panel & Controls</div>
-              <div style={{ fontSize: "0.75rem", color: "#94a3b8", marginTop: "0.35rem" }}>Manage Books CRUD, Users, Borrowings, Settings</div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

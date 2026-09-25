@@ -20,7 +20,7 @@ export const TimeSimulator = () => {
           </div>
 
           <p style={{ fontSize: "0.8rem", color: "var(--text-muted)", marginBottom: "0.85rem", lineHeight: "1.4" }}>
-            Test <strong>Sonu's Borrow/Return requirement</strong>: <em>"If due date reached, return automatically"</em> without waiting 14 real days!
+            Test <strong>Automated Return Feature</strong>: <em>"If due date reached, return automatically"</em> without waiting 14 real days!
           </p>
 
           <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>

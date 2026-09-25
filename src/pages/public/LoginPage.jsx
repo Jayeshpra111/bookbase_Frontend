@@ -127,7 +127,7 @@ export const LoginPage = () => {
               onClick={fillAsUser}
               style={{ flex: 1, fontSize: "0.78rem" }}
             >
-              Fill as User (Amay)
+              Fill as Member
             </button>
             <button
               type="button"
@@ -135,7 +135,7 @@ export const LoginPage = () => {
               onClick={fillAsAdmin}
               style={{ flex: 1, fontSize: "0.78rem" }}
             >
-              Fill as Admin (Suraj)
+              Fill as Admin
             </button>
           </div>
         </div>

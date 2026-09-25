@@ -41,7 +41,7 @@ export const SearchResultsPage = () => {
       // If query is empty, match all remaining
       if (!q) return true;
 
-      // Field specific search as requested by Aniket's spec:
+      // Field specific search:
       // "Search by Title, Author, Category"
       if (searchField === "title") {
         return book.title.toLowerCase().includes(q);
@@ -117,7 +117,7 @@ export const SearchResultsPage = () => {
             </button>
           )}
 
-          {/* Search field selector per Aniket spec */}
+          {/* Search field selector */}
           <select
             value={searchField}
             onChange={(e) => setSearchField(e.target.value)}

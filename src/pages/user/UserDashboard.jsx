@@ -81,7 +81,7 @@ export const UserDashboard = () => {
         </div>
       </div>
 
-      {/* Amay - Display Requirements:
+      {/* Member Statistics:
           1. Total borrowed books
           2. Currently borrowed books
           3. Returned books
@@ -258,7 +258,7 @@ export const UserDashboard = () => {
           )}
         </div>
 
-        {/* Recent Activity Feed (Amay requirement: Recent activity) */}
+        {/* Recent Activity Feed */}
         <div className="card">
           <h2 style={{ fontSize: "1.2rem", marginBottom: "1.25rem", display: "flex", alignItems: "center", gap: "0.5rem" }}>
             <TrendingUp size={18} color="var(--primary-600)" /> Recent Activity

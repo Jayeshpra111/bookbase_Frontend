@@ -45,17 +45,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Team Members & Module Breakdown */}
-          <div>
-            <h4 style={{ fontSize: "0.95rem", marginBottom: "0.75rem", color: "var(--text-main)" }}>Project Team</h4>
-            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.45rem", fontSize: "0.8rem", color: "var(--text-muted)" }}>
-              <li><strong>1. Sonal:</strong> Auth & Public Pages</li>
-              <li><strong>2. Amay:</strong> User Dashboard & Profile</li>
-              <li><strong>3. Aniket:</strong> Book Catalog & Search</li>
-              <li><strong>4. Sonu:</strong> Borrow & Return System</li>
-              <li><strong>5. Suraj:</strong> Admin Panel & Controls</li>
-            </ul>
-          </div>
+
         </div>
 
         {/* Bottom bar */}

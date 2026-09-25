@@ -57,7 +57,6 @@ export const MyBooksPage = () => {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2rem" }}>
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.4rem" }}>
-            <span className="badge badge-primary">Sonu's Module</span>
             <span className="badge badge-success">Lifecycle Management</span>
           </div>
           <h1 className="section-title">Borrow & Return System</h1>

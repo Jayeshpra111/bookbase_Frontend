@@ -73,7 +73,6 @@ export const ManageUsersPage = () => {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "1rem", marginBottom: "2rem" }}>
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.4rem" }}>
-            <span className="badge badge-danger">Suraj's Admin Module</span>
             <span className="badge badge-primary">Member Accounts</span>
           </div>
           <h1 className="section-title">Manage Members & Users</h1>
@@ -103,7 +102,7 @@ export const ManageUsersPage = () => {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "1rem", flex: 1, minWidth: "260px", flexWrap: "wrap" }}>
-          {/* Search Box (Suraj requirement: Search users) */}
+          {/* Search Box */}
           <div style={{ position: "relative", width: "100%", maxWidth: "340px" }}>
             <Search
               size={18}
@@ -246,7 +245,7 @@ export const ManageUsersPage = () => {
         </div>
       </div>
 
-      {/* User Details Modal (Suraj requirement: View user details) */}
+      {/* User Details Modal */}
       {isDetailsModalOpen && selectedUser && (
         <div className="modal-overlay" onClick={() => setIsDetailsModalOpen(false)}>
           <div className="modal-content" style={{ maxWidth: "620px" }} onClick={(e) => e.stopPropagation()}>

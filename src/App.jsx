@@ -43,17 +43,17 @@ function App() {
 
             <main className="main-content">
               <Routes>
-                {/* Public Pages (Sonal) */}
+                {/* Public Pages */}
                 <Route path="/" element={<HomePage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
 
-                {/* Catalog & Search (Aniket) */}
+                {/* Catalog & Search */}
                 <Route path="/catalog" element={<BookCatalog />} />
                 <Route path="/books/:id" element={<BookDetailsPage />} />
                 <Route path="/search" element={<SearchResultsPage />} />
 
-                {/* User Protected Routes (Amay, Sonu) */}
+                {/* User Protected Routes */}
                 <Route
                   path="/dashboard"
                   element={
@@ -79,7 +79,7 @@ function App() {
                   }
                 />
 
-                {/* Admin Protected Routes (Suraj) */}
+                {/* Admin Protected Routes */}
                 <Route
                   path="/admin/dashboard"
                   element={

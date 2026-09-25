@@ -49,7 +49,7 @@ export const AdminDashboard = () => {
         <div>
           <div style={{ display: "flex", alignItems: "center", gap: "0.5rem", marginBottom: "0.4rem" }}>
             <span className="badge" style={{ background: "rgba(239, 68, 68, 0.2)", color: "#fca5a5", border: "1px solid rgba(239, 68, 68, 0.4)" }}>
-              Admin Panel — Suraj's Module
+              Admin Panel
             </span>
             <span style={{ fontSize: "0.85rem", opacity: 0.8 }}>Library Administrator Workspace</span>
           </div>
@@ -214,7 +214,7 @@ export const AdminDashboard = () => {
           </div>
         </div>
 
-        {/* Overdue Books Table (Page 6 requirement: Overdue Books [User, Book, Status]) */}
+        {/* Overdue Books Table */}
         <div className="card">
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.25rem" }}>
             <h2 style={{ fontSize: "1.2rem", display: "flex", alignItems: "center", gap: "0.5rem", color: "var(--danger)" }}>
